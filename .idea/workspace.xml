@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61d81c35-89d2-4678-9501-2c476514a1c1" name="Changes" comment="Initial commit" />
+    <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Deleted simulation.py file (wrong branch)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,6 +82,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added in simulation.py file" />
+    <MESSAGE value="Deleted simulation.py file (wrong branch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted simulation.py file (wrong branch)" />
   </component>
 </project>
