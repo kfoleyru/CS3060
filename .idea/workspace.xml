@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Troubleshooting the speed of the Window">
+    <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Adjusted time for sleep. Completed assignment 1 requirements">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;simulation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "onelink",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,6 +75,8 @@
       <workItem from="1768584322675" duration="486000" />
       <workItem from="1768585300132" duration="440000" />
       <workItem from="1768595082569" duration="222000" />
+      <workItem from="1768922053314" duration="590000" />
+      <workItem from="1768937996824" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -98,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768595111262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjusted time for sleep. Completed assignment 1 requirements">
+      <option name="closed" value="true" />
+      <created>1768922131363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768922131363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +122,7 @@
     <MESSAGE value="Deleted simulation.py file (wrong branch)" />
     <MESSAGE value="Add simulate.py to simulation branch" />
     <MESSAGE value="Troubleshooting the speed of the Window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Troubleshooting the speed of the Window" />
+    <MESSAGE value="Adjusted time for sleep. Completed assignment 1 requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted time for sleep. Completed assignment 1 requirements" />
   </component>
 </project>

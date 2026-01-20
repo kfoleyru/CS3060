@@ -7,6 +7,6 @@ physicsClient = p.connect(p.GUI)
 
 while p.isConnected():
 	p.stepSimulation()
-	time.sleep(0.0001)
+	time.sleep(0.000001)
 
 p.disconnect()
