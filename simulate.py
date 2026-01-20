@@ -3,10 +3,10 @@ import time
 
 
 physicsClient = p.connect(p.GUI)
-p.configureDebugVisualizer(p.COV_ENABLE_GUI,1)
+# p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
 
-for i in range(1000):
+while p.isConnected():
 	p.stepSimulation()
-	time.sleep(1/2)
+	time.sleep(0.0001)
 
 p.disconnect()

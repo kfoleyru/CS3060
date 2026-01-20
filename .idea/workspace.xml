@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Add simulate.py to simulation branch">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Troubleshooting the speed of the Window">
       <change beforePath="$PROJECT_DIR$/simulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,7 @@
       <workItem from="1768583589627" duration="217000" />
       <workItem from="1768584322675" duration="486000" />
       <workItem from="1768585300132" duration="440000" />
+      <workItem from="1768595082569" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -91,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768584356269</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Troubleshooting the speed of the Window">
+      <option name="closed" value="true" />
+      <created>1768595111262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768595111262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +109,7 @@
     <MESSAGE value="Added in simulation.py file" />
     <MESSAGE value="Deleted simulation.py file (wrong branch)" />
     <MESSAGE value="Add simulate.py to simulation branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add simulate.py to simulation branch" />
+    <MESSAGE value="Troubleshooting the speed of the Window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Troubleshooting the speed of the Window" />
   </component>
 </project>
