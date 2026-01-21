@@ -14,6 +14,6 @@ p.loadSDF("boxes.sdf")
 
 while p.isConnected():
 	p.stepSimulation()
-	time.sleep(0.001)
+	time.sleep(0.01)
 
 p.disconnect()

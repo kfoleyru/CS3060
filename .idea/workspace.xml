@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/box.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/box.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boxes.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/boxes.sdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
     </list>
@@ -78,7 +79,7 @@
       <workItem from="1768585300132" duration="440000" />
       <workItem from="1768595082569" duration="222000" />
       <workItem from="1768922053314" duration="590000" />
-      <workItem from="1768937996824" duration="3070000" />
+      <workItem from="1768937996824" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
