@@ -1,14 +1,19 @@
 import pybullet as p
+import pybullet_data
 import time
 
 
 physicsClient = p.connect(p.GUI)
+p.setAdditionalSearchPath(pybullet_data.getDataPath())
 p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
+
+p.setGravity(0,0,-9.8,physicsClient)
+planeId = p.loadURDF("plane.urdf")
 
 p.loadSDF("box.sdf")
 
 while p.isConnected():
 	p.stepSimulation()
-	time.sleep(0.000001)
+	time.sleep(0.001)
 
 p.disconnect()

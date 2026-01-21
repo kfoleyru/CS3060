@@ -46,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "onelink",
+    "git-widget-placeholder": "manylinks",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -76,7 +76,7 @@
       <workItem from="1768585300132" duration="440000" />
       <workItem from="1768595082569" duration="222000" />
       <workItem from="1768922053314" duration="590000" />
-      <workItem from="1768937996824" duration="1262000" />
+      <workItem from="1768937996824" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
