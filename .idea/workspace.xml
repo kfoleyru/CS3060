@@ -7,6 +7,8 @@
     <list default="true" id="fdd6bb48-3350-47be-950f-71735c81d7a4" name="Changes" comment="Adjusted time for sleep. Completed assignment 1 requirements">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/box.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <workItem from="1768585300132" duration="440000" />
       <workItem from="1768595082569" duration="222000" />
       <workItem from="1768922053314" duration="590000" />
-      <workItem from="1768937996824" duration="2541000" />
+      <workItem from="1768937996824" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
