@@ -9,8 +9,9 @@ p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
 
 p.setGravity(0,0,-9.8,physicsClient)
 planeId = p.loadURDF("plane.urdf")
+robotId = p.loadURDF("body.urdf")
 
-p.loadSDF("boxes.sdf")
+p.loadSDF("world.sdf")
 
 while p.isConnected():
 	p.stepSimulation()

@@ -50,6 +50,10 @@ def Get_Touch_Sensor_Value_For_Link(linkName):
 
     pts = p.getContactPoints()
 
+    if pts==None:
+
+        return -1
+
     for pt in pts:
 
         linkIndex = pt[4]
@@ -120,7 +124,7 @@ def Send_Cube(name="default",pos=[0,0,0],size=[1,1,1]):
 
         links.append(link)
     else:
-        link = LINK_URDF("cube",name,pos,size)
+        link = LINK_URDF(name,pos,size)
 
         links.append(link)
 
