@@ -3,6 +3,7 @@ import numpy
 import pybullet as p
 import pybullet_data
 import pyrosim.pyrosim as pyrosim
+import random
 import time
 
 
@@ -29,14 +30,14 @@ for i in range(1000):
 		bodyIndex = robotId, 
 		jointName = b'Torso_BackLeg',
 		controlMode = p.POSITION_CONTROL,
-		targetPosition = -math.pi/6.0,
-		maxForce = 500)
+		targetPosition = random.random()*random.uniform(-math.pi/2.0,math.pi/2.0),
+		maxForce = 25)
 	pyrosim.Set_Motor_For_Joint(
 		bodyIndex = robotId, 
 		jointName = b'Torso_FrontLeg',
 		controlMode = p.POSITION_CONTROL,
-		targetPosition = math.pi/6.0,
-		maxForce = 500)
+		targetPosition = random.random()*random.uniform(-math.pi/2.0,math.pi/2.0),
+		maxForce = 25)
 	time.sleep(0.01)
 
 numpy.save('data/backLegSensorValues.npy', backLegSensorValues)
