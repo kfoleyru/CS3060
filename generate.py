@@ -18,6 +18,8 @@ def Create_Robot():
 							type = "revolute", position = [-0.5,0,1])
 	pyrosim.Send_Cube(name="FrontLeg", pos=[0.5,0,-0.5], size=[LENGTH,WIDTH,HEIGHT])
 	pyrosim.Send_Cube(name="BackLeg", pos=[-0.5,0,-0.5], size=[LENGTH,WIDTH,HEIGHT])
+
+
 	pyrosim.End()
 
 if __name__ == "__main__":
