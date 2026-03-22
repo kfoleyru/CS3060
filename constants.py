@@ -1,6 +1,7 @@
-"""
+""" 
 Author: Kalei Foley-Rutherfurd
 Description: Constants for use in simulate.py
+
 """
 import numpy
 
