@@ -42,6 +42,7 @@ class ROBOT:
 			m.set_value(i, self.robot_id)
 
 	def think(self):
+		self.nn.Update()
 		self.nn.Print()
 
 
