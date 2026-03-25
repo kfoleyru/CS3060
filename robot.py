@@ -6,6 +6,7 @@ Description: ROBOT contains all properties of a ROBOT object
 
 import pybullet as p
 import pyrosim.pyrosim as pyrosim
+from pyrosim.neuralNetwork import NEURAL_NETWORK
 from sensor import SENSOR
 from motor import MOTOR
 
@@ -16,6 +17,7 @@ class ROBOT:
 		self.motors = {}
 
 		self.robot_id = p.loadURDF("body.urdf")
+		self.nn = NEURAL_NETWORK("brain.nndf")
 
 		pyrosim.Prepare_To_Simulate(self.robot_id)
 		self.prepare_to_sense()
@@ -38,6 +40,9 @@ class ROBOT:
 	def act(self, i):
 		for m in self.motors.values():
 			m.set_value(i, self.robot_id)
+
+	def think(self):
+		self.nn.Print()
 
 
 
