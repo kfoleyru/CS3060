@@ -1,3 +1,4 @@
+
 """ 
 Author: Kalei Foley-Rutherfurd
 Description: ROBOT contains all properties of a ROBOT object
@@ -38,12 +39,12 @@ class ROBOT:
 			s.get_value(i)
 
 	def act(self, i):
+		for neuronName in self.nn.Get_Neuron_Names():
+			if self.nn.Is_Motor_Neuron(neuronName):
+				print(neuronName)
 		for m in self.motors.values():
 			m.set_value(i, self.robot_id)
 
 	def think(self):
 		self.nn.Update()
 		self.nn.Print()
-
-
-
