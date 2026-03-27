@@ -8,7 +8,7 @@ import numpy
 PI = numpy.pi
 
 # Number of steps in simulation
-STEPS = 5000
+STEPS = 2000
 
 # Angle values for motors
 AMPLITUDE = PI/4
