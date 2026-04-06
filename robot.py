@@ -18,7 +18,7 @@ class ROBOT:
 		self.motors = {}
 
 		self.robot_id = p.loadURDF("body.urdf")
-		self.nn = NEURAL_NETWORK("brain.nndf")
+		self.nn = NEURAL_NETWORK("brain.nndf") #create neural network
 
 		pyrosim.Prepare_To_Simulate(self.robot_id)
 		self.prepare_to_sense()
@@ -45,7 +45,5 @@ class ROBOT:
 				self.motors[jointName].set_value(desiredAngle, self.robot_id)
 				jointName = jointName.decode("utf-8")
 
-
 	def think(self):
 		self.nn.Update()
-		self.nn.Print()
