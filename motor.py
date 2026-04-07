@@ -15,7 +15,7 @@ class MOTOR:
 		self.motor_values = numpy.linspace(0, 2 * c.PI, c.STEPS)
 
 		if self.joint_name == b'Torso_BackLeg':
-			self.motor_values == self.amp * numpy.sin((self.freq / 2) * self.motor_values + self.offset)
+			self.motor_values = self.amp * numpy.sin((self.freq / 2) * self.motor_values + self.offset)
 		else:
 			self.motor_values = self.amp * numpy.sin(self.freq * self.motor_values + self.offset)
 	

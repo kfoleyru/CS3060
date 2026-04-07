@@ -30,4 +30,4 @@ class SIMULATION:
 			self.robot.prepare_to_act()
 			self.robot.act(step)
 			
-			time.sleep(0.05)
+			time.sleep(0.001)
