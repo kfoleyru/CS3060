@@ -32,7 +32,7 @@ def generate_brain():
 	pyrosim.End()
 
 
-# if __name__ == "__main__":
-# 	create_world()
-# 	generate_body()
-# 	generate_brain()
+if __name__ == "__main__":
+	create_world()
+	generate_body()
+	generate_brain()
