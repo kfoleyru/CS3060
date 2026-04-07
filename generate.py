@@ -25,10 +25,14 @@ def generate_body():
 def generate_brain():
 	pyrosim.Start_NeuralNetwork("brain.nndf")
 	pyrosim.Send_Sensor_Neuron(name = 0, linkName = "Torso")
+	pyrosim.Send_Sensor_Neuron(name = 1, linkName = "FrontLeg")
+	pyrosim.Send_Sensor_Neuron(name = 2, linkName = "BackLeg")
+	
 	pyrosim.Send_Motor_Neuron(name = 3 , jointName = "Torso_BackLeg")
 	pyrosim.Send_Motor_Neuron(name = 4 , jointName = "Torso_FrontLeg")
 	# connect neuron 1 to neuron 3
 	pyrosim.Send_Synapse(sourceNeuronName = 1, targetNeuronName = 3, weight = 1.0)
+	
 	pyrosim.End()
 
 
