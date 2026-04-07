@@ -8,10 +8,10 @@ import numpy
 PI = numpy.pi
 
 # Number of steps in simulation
-STEPS = 2000
+STEPS = 1000
 
 # Angle values for motors
 AMPLITUDE = PI/4
-FREQUENCY = 30
+FREQUENCY = 20
 PHASE_OFFSET = 0
-MAX_FORCE = 25
+MAX_FORCE = 100
