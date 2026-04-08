@@ -6,3 +6,4 @@ for i in range(5):
 	# os.system("python simulate.py")
 
 	hc = HILL_CLIMBER()
+	hc.evolve()
